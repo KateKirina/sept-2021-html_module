@@ -1,0 +1,29 @@
+h1, h2 {
+    text-align: center;
+    color: purple;
+}
+
+p {
+    background: pink;
+    text-align: justify;
+}
+
+img {
+    margin-left: 600px;
+    border: 10px solid pink;
+    border-radius: 50px;
+}
+
+li {
+    list-style-type: none;
+
+}
+
+a {
+    color: purple;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #07d90a;
+}
