@@ -1,0 +1,30 @@
+.header_title, .main_container-title {
+    text-align: center;
+    color: purple;
+}
+
+.header_desc, .main_container-desc {
+    background: pink;
+    text-align: justify;
+}
+
+.header_pic {
+    display: flex;
+    justify-content: center;
+    border: 10px solid pink;
+    border-radius: 50px;
+}
+
+.main_container-item {
+    list-style-type: none;
+
+}
+
+a {
+    color: purple;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #07d90a;
+}
