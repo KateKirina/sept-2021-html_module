@@ -1,0 +1,48 @@
+.bg {
+    background: #0048ff;
+}
+
+.color {
+    color: white;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    column-gap: 5px;
+    width: 600px;
+}
+
+.container__header {
+    display: flex;
+    column-gap: 5px;
+}
+
+.container__header_home,.container__header_about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 400px;
+}
+
+.container__main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.container__footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container__footer_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 32%;
+}
