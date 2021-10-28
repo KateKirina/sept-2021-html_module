@@ -47,6 +47,137 @@
         row-gap: 14px;
     }
 
+    .main__container {
+
+        margin-top: 1200px;
+    }
+
+    .main__container_history {
+        max-width: 340px;
+        flex-direction: column;
+
+    }
+
+    .main__history_title {
+        max-width: 180px;
+
+    }
+
+    .main__history_title h2 {
+        padding-left: 70px;
+        padding-bottom: 48px;
+    }
+
+    .main__history_title p {
+        max-width: 290px;
+        padding: 0 15px;
+    }
+
+    .main__history_title-nombers {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 100px;
+
+    }
+
+    .main__container_img img {
+        max-width: 290px;
+        margin-top: 45px;
+    }
+
+    .main__reservetion {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 15px;
+    }
+
+    .main__reservetion_title h2 {
+        max-width: 290px;
+        font-size: 30px;
+        line-height: 34px;
+        text-align: center;
+        padding-left: 15px;
+
+    }
+
+    .main__reservetion_title p {
+        max-width: 290px;
+        text-align: center;
+    }
+
+    .main__reservetion_button {
+        padding-bottom: 30px;
+        margin-right: 0;
+    }
+
+    .container__products_title {
+        max-width: 176px;
+        padding-left: 80px;
+    }
+
+    .container__products_photo {
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .products_photo_left img {
+        max-width: 375px;
+        margin-top: 72px;
+
+    }
+
+    .products_photo_right {
+        row-gap: 87px;
+    }
+
+    .photo_right_desc {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu_item_card {
+        display: none;
+    }
+
+    .main__container_menu_feedback {
+        padding: 10px 65px;
+    }
+
+    .main__container_galary h2 {
+        max-width: 145px;
+        padding-left: 80px;
+    }
+
+
+
+    .container_galary_photo {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .galary_photo_left_down, .galary_photo_right_up {
+        flex-direction: column;
+    }
+
+    .galary_photo_left_up img,.galary_photo_right_down img {
+        max-width: 330px;
+        height: 300px;
+    }
+
+    .container__cooks_photo {
+        flex-direction: column;
+        row-gap: 17px;
+    }
+
+    .main__container_cooks h2 {
+        max-width: 120px;
+        padding-left: 80px;
+    }
+
+
+
+
 
 
 }
