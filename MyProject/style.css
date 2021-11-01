@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    padding: 0 283px;
+}
+
+.header__top {
+    width: 1920px;
+    height: 36px;
+    background: #0F2438;
+
+}
+
+
+.top_left_city {
+    align-items: center;
+    column-gap: 7px;
+}
+
+.top_left_city img {
+    width: 14px;
+    height: 14px;
+}
+
+.top_left_city p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.top_left_info, .top_left_partnership {
+    align-items: center;
+
+}
+
+.top_left_info h4, .top_left_partnership h4 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding-left:50px;
+}
+
+.top_left_info img, .top_left_partnership img {
+    width: 6px;
+    margin-left: 5px;
+}
+
+.header_nav {
+    column-gap: 30px;
+    align-items: center;
+}
+
+.header_nav_item a {
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+
+}
