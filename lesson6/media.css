@@ -1,0 +1,79 @@
+@media screen and (max-width: 375px) {
+
+    .header__top_menu {
+        display: none;
+    }
+
+    .top_contacts_phone {
+        display: none;
+    }
+
+    .top_contacts button {
+        display: none;
+    }
+
+    .header__top_logo img {
+        width: 50px;
+    }
+
+    .nav__btn_mobile {
+        display: flex;
+        margin-left: 213px;
+    }
+
+    .header__top {
+        padding: 20px 14px;
+
+    }
+
+    .wrapper {
+
+        padding: 0 10px;
+    }
+
+    .header__main_container h2 {
+        padding-top: 250px;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 34px;
+
+    }
+
+    .header__main_container h1 {
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 46px;
+        color: #D67E35;
+
+    }
+
+    .header__main_container p {
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 20px;
+        color: #FFFFFF;
+
+    }
+
+    .header__main_container p::before,
+    .header__main_container p::after {
+        display: none;
+    }
+
+    .header__main_container button {
+        margin-top: 45px;
+    }
+
+
+    .header__main_cards {
+        display: flex;
+        flex-direction: column;
+        padding-left: 30px;
+        row-gap: 14px;
+    }
+
+
+
+
+
+}
