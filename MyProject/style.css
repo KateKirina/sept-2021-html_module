@@ -34,12 +34,16 @@
     margin: 0;
 }
 
-.top_left_info, .top_left_partnership {
+.top_left_info, .top_left_partnership,.top_left_else {
     align-items: center;
 
 }
 
-.top_left_info h4, .top_left_partnership h4 {
+.top_left_else {
+    display: none!important;
+}
+
+.top_left_info h4, .top_left_partnership h4,.top_left_else h4 {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -48,7 +52,7 @@
     padding-left:50px;
 }
 
-.top_left_info img, .top_left_partnership img {
+.top_left_info img, .top_left_partnership img,.top_left_else img {
     width: 6px;
     margin-left: 5px;
 }
@@ -106,6 +110,10 @@
     padding-top: 10px;
 }
 
+.container__contacts {
+
+}
+
 .header_main_contacts_time {
     column-gap: 10px;
 }
@@ -141,6 +149,7 @@
 }
 
 .header_main_contacts_messenger {
+    order: 1;
     width: 210px;
     align-items: center;
     background: #E1EFD0;
@@ -164,6 +173,7 @@
 }
 
 .header_main_contacts_phone {
+    order: 2;
     flex-direction: column;
     text-align: end;
 }
@@ -236,6 +246,13 @@
     font-size: 14px;
     line-height: 17px;
     color: #FFFFFF;
+
+}
+
+.form-control-img {
+    display: none!important;
+    width: 12px;
+    height: 12px;
 }
 
 .header__main_profile_enter {
